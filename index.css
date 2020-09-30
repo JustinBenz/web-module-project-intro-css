@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    max-width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto Mono', monospace; 
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+header {
+    width: 100%;
+}
+header h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4em;
+    margin-bottom: 7%;
+}
+header p{
+    text-align: center;
+    margin-bottom: 7%;
+    font-size: 20px;
+}
+header img{
+    width: 40rem;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.imgctr{
+    width: 20%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.txtctr{
+    width: 60%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    width: 100%;
+}
+header nav a{
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 10%;
+    display: inline-block;
+    width: 17%;
+    margin: 5%;
+    font-size: 2em;
+}
+
+header nav a:nth-child(1){
+    background-color: #FF764E;
+}
+header nav a:nth-child(2){
+    background-color:#5ED3EB;
+}
+header nav a:nth-child(3){
+    background-color: #FFCD69;
+}
+.mtxt{
+    background-color: #DDB9A3;  
+}
+section {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+section p{
+    width: 50%;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+}
+
+section p:nth-child(1){
+    width: 70%;
+    color: white;
+    line-height: 2.5;
+}
+
+section img{
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+}
+footer {
+    background-color: #F9E7DC;
+    width: 100%;
+}
+footer img{
+    width: 100%;
+}
+.imgcvr{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(./assets/footer_img.jpg);
+    background-position: 0 20%;
+    background-size: cover;
+}
+footer nav {
+    text-align: center;
+    width: 100%;
+}
+footer nav a{
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 10%;
+    display: inline-block;
+    width: 17%;
+    margin: 5%;
+    font-size: 2em;
+}
+
+footer nav a:nth-child(1){
+    background-color: #FF764E;
+}
+footer nav a:nth-child(2){
+    background-color:#5ED3EB;
+}
+footer nav a:nth-child(3){
+    background-color: #FFCD69;
+}
+span {
+    font-weight: bold;
+}
