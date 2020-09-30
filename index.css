@@ -98,6 +98,7 @@ header nav a{
     width: 17%;
     margin: 5%;
     font-size: 2em;
+    color: white;
 }
 
 header nav a:nth-child(1){
@@ -165,6 +166,7 @@ footer nav a{
     width: 17%;
     margin: 5%;
     font-size: 2em;
+    color: white;
 }
 
 footer nav a:nth-child(1){
